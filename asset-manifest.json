@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-word/static/css/main.b5632a5b.css",
+    "main.js": "/React-word/static/js/main.76a85ea7.js",
+    "index.html": "/React-word/index.html",
+    "main.b5632a5b.css.map": "/React-word/static/css/main.b5632a5b.css.map",
+    "main.76a85ea7.js.map": "/React-word/static/js/main.76a85ea7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5632a5b.css",
+    "static/js/main.76a85ea7.js"
+  ]
+}
