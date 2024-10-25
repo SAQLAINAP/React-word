@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.game-board {
+    margin-right: 20px;
+}
+
+.game-info {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.status {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+
+.board-row {
+    display: flex;
+}
+
+.square {
+    background: #f9f9f9;
+    border: 1px solid #bbb;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    padding: 0;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+.square:hover {
+    background: #ddd;
+}
+
+.square:focus {
+    outline: none;
+    background: #ccc;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game-info button {
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background 0.3s;
+}
+
+.game-info button:hover {
+    background-color: #0056b3;
+}
+
+.game-info button:focus {
+    outline: none;
+    background-color: #004080;
+}
